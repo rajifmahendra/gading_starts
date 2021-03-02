@@ -1099,7 +1099,7 @@ support for no js
 	margin-top:30px;
 }
 .fes2-img {
-  background: url(../images/fes2.jpg) 50% 50% no-repeat;
+  background: url(/images/fes2.jpg) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -1114,14 +1114,14 @@ support for no js
   background-position: center center;
 }
 .title-fs-45 {
-	color:#4b4e53;
+	color:#eee;
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 300;
 }
 .fes3-img {
-  background: url(../images/fes3.jpg) 50% 50% no-repeat;
+  background: url(/images/fes3.jpg) 50% 50% no-repeat;
   background-size: cover;
   
   width: 100%;
@@ -1177,8 +1177,8 @@ support for no js
 	font-weight:300;
 	font-size:30px;
 	line-height:36px;
-	color:#4b4e53; 
-  border-left:#4b4e53 2px solid;
+	color:#eee; 
+  border-left:#eee 2px solid;
 }
 .section-title-2 {
   margin:0;
@@ -2541,7 +2541,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   position: absolute;
   top: 25px;
   left: 0;
-  color: #7e8082;
+  color: #eee;
   font-size: 35px;
 }
 .cis-text  {
@@ -2552,7 +2552,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   border-left:1px solid #bdbdbd;
 }
 .cis-text h3 {
-  color: #4b4e53;
+  color: #eee;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
@@ -3035,16 +3035,16 @@ select.input-border {
   width:100%;
 }
 
-::-webkit-input-placeholder, .controled::-webkit-input-placeholder {color: #4b4e53;}
-::-moz-placeholder, .controled::-moz-placeholder           {color:#4b4e53;}/* Firefox 19+*/
-:-moz-placeholder, .controled:-moz-placeholder           {color:#4b4e53;}/* Firefox 18- */
-:-ms-input-placeholder, .controled:-ms-input-placeholder      {color:#4b4e53;}
+::-webkit-input-placeholder, .controled::-webkit-input-placeholder {color: #eee;}
+::-moz-placeholder, .controled::-moz-placeholder           {color:#eee;}/* Firefox 19+*/
+:-moz-placeholder, .controled:-moz-placeholder           {color:#eee;}/* Firefox 18- */
+:-ms-input-placeholder, .controled:-ms-input-placeholder      {color:#eee;}
 
 
-:focus::-webkit-input-placeholder {color: #a6a7a9;}
-:focus::-moz-placeholder          {color:#a6a7a9;}/* Firefox 19+*/
-:focus:-moz-placeholder           {color:#a6a7a9;}/* Firefox 18- */
-:focus:-ms-input-placeholder      {color:#a6a7a9;}
+:focus::-webkit-input-placeholder {color: #eee;}
+:focus::-moz-placeholder          {color:#eee;}/* Firefox 19+*/
+:focus:-moz-placeholder           {color:#eee;}/* Firefox 18- */
+:focus:-ms-input-placeholder      {color:#eee;}
 
 .controled:focus, .nl-email-input:focus {
   border-color:#4b4e53;

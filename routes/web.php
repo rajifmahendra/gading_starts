@@ -20,6 +20,8 @@ Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function(){
     Route::get('/visimisi', 'VisiController@index')->name('visi');
     Route::get('/legalitas', 'LegalController@index')->name('legalitas');
     Route::get('/project', 'ProjectController@index')->name('project');
+    Route::get('/service', 'ServiceController@index')->name('service');
+    Route::get('/flow', 'FlowController@index')->name('flow');
     Route::get('/pricelits', 'PricelistController@index')->name('pricelist');
     Route::get('/gallery', 'GalleryController@index')->name('gallery');
     Route::get('/contact', 'ContactController@index')->name('contact');
