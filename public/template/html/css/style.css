@@ -281,7 +281,7 @@ body {
 	line-height: 25px;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
 	font-weight: normal;
-	color: #7e8082;
+	color: #e7d61d;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased !important;
 	-webkit-text-size-adjust: 100% !important;
@@ -3157,14 +3157,14 @@ select.input-border {
 /* #FOOTER 2 BLACK #NEW
 =====================================================*/
 .footer2-black {
-  background: #303236;
-  color:rgba(255,255,255, .7);
+  background: #e7d61d;
+  color:#7e8082;
 }
 .footer2-black .widget h4 {
-  color:#fff;
+  color:#7e8082;
 }
 .footer2-black .a-text, .footer2-black .a-text-cont a {
-  color: rgba(255,255,255, .7);
+  color: #7e8082;
 }
 .footer2-black .a-text:hover, .footer2-black .a-text-cont a:hover {
   color: #fff;
@@ -3177,7 +3177,7 @@ select.input-border {
   color: rgba(255,255,255, .3); 
 }
 .footer2-black .footer-2-soc-a a:hover, .footer2-black .footer-2-copy:hover {
-  color: #fff; 
+  color: #7e8082; 
 }
 
 /* #MENU #NEW
@@ -3220,7 +3220,7 @@ select.input-border {
   transform: translateZ(0);
 }
 .black-header #main-menu .navbar .nav > li > a, .header-black-white #main-menu .navbar .nav > li > a {
-  color: rgba(255,255,255, .7);
+  color: #e7d61d;
 }
 
 /* Effect 3: bottom line slides/fades in */
@@ -3255,7 +3255,7 @@ select.input-border {
 }
 .black-header #main-menu .navbar .nav > li.current > a, .header-black-white #main-menu .navbar .nav > li.current > a {
 	border-bottom: 2px solid rgba(255,255,255,1);
-	color:#fff; 
+	color:#e7d61d; 
 }
 .affix.header-1 #main-menu .navbar .nav > li.current > a{
   margin-bottom: 13px;
@@ -5130,7 +5130,7 @@ h1, h2, h3{
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #4b4e53;
+	color: #eee;
 	margin: 0;
 }
 h1 {
@@ -10742,7 +10742,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 /* #FOOTER 2 BLACK #2.2
 =====================================================*/
 .footer2-black .a-text, .footer2-black .a-text-cont a, .footer2-black a {
-  color: rgba(255,255,255, .7);
+  color: #7e8082;
 }
 .footer2-black .a-text:hover, .footer2-black .a-text-cont a:hover, .footer2-black a:hover {
   color: #fff;

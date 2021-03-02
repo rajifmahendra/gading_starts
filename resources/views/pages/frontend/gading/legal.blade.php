@@ -10,7 +10,7 @@
         
         <div class="col-md-4">
           <div class="breadcrumbs">
-            <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PAGES & FEATURES</a><span class="slash-divider">/</span><span class="bread-current">PORTFOLIO</span>
+            <a href="{{ route('home')}}">Home</a><span class="slash-divider">/</span><span class="bread-current">LEGALITAS</span>
           </div>
         </div>
         
