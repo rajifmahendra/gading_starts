@@ -7285,7 +7285,7 @@ h1.pt-col-main {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #dfdfdf;
+  background: #303236;
   text-align:center;
   font-size:24px;
   padding-top: 16px;
@@ -7356,7 +7356,7 @@ h1.pt-col-main {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
   padding: 20px;
 }
 .cd-timeline-content:after {
@@ -7397,7 +7397,7 @@ h1.pt-col-main {
 .cd-date-month {
 	font-size:14px;
 }
-.cd-timeline-content::before {
+/* .cd-timeline-content::before {
   content: '';
   position: absolute;
   top: 16px;
@@ -7406,7 +7406,7 @@ h1.pt-col-main {
   width: 0;
   border: 7px solid transparent;
   border-right: 7px solid #f3f3f3;
-}
+} */
 h2.portfolio-timeline-title {
 	margin:10px 0 0 0;
 }
@@ -11012,3 +11012,6 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 		color: #fff !important;
 	}
 }
+
+/* FLOW */
+

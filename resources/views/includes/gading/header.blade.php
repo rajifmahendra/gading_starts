@@ -57,6 +57,7 @@
 							<li class="parent">
 								<a href="{{ url('service') }}"><div class="main-menu-title">OUR SERVICE</div></a>
 								<ul class="sub">
+									<li><a href="{{ url('service') }}">OUR SERVICE</a></li>
 									<li><a href="{{ url('flow') }}">FLOW</a></li>
 								</ul>
 							</li>

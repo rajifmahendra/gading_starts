@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class FlowController extends Controller
 {
     public function index(){
-        return view('pages.frontend.gading.visi');
+        return view('pages.frontend.gading.flow');
     }
 }
