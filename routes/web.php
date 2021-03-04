@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function(){
-   
+
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/about', 'AboutController@index')->name('about');
     Route::get('/visimisi', 'VisiController@index')->name('visi');
@@ -26,3 +26,4 @@ Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function(){
     Route::get('/gallery', 'GalleryController@index')->name('gallery');
     Route::get('/contact', 'ContactController@index')->name('contact');
 });
+Route::post('/store/contact-us', 'Frontend\ContactController@storeContactUs')->name('store.contact-us');

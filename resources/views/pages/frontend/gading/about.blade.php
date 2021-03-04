@@ -51,17 +51,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <h4 class="mb-100"></h4>
-                    <p class="">Until now PT. Gading Persada Mandiri is already trusted
-                        to handling various types of projects from government,
-                        companies, communities and all business forms.</p>
-                </div>
-                <div class="col-md-4">
-                  <h4 class="mb-100"></h4>
-                  <p class="">Our team are experts who have experienced in their field
-                    and become an valuable asset for PT. Gading Persada
-                    Mandiri in serving all that our client needed.</p>
+                    <p class="">
+                        @if(!$contents)
+                            Until now PT. Gading Persada Mandiri is already trusted
+                            to handling various types of projects from government,
+                            companies, communities and all business forms.
+                        @else
+                            {{ $contents->content }}
+                        @endif
+                    </p>
                 </div>
             </div>
 

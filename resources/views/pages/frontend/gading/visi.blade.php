@@ -36,19 +36,26 @@
                     <!-- HEADINGS  -->
                     <div id="heading" class="bs-docs-section mb-100">
                         <h3>Visi :</h3>
-                        <p>Become a committed company, and always
-                            providing the best and reliable services in
-                            the fields that we provide.</p>
+                        <p>
+                            @if(!$contentVisi)
+                                -
+                            @else
+                                {{ $contentVisi->content }}
+                            @endif
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <!-- HEADINGS  -->
                     <div id="heading" class="bs-docs-section mb-100">
                         <h3>Misi :</h3>
-                        <p>Providing high-quality service products
-                            and services with competitive prices,
-                            committed to transparent and reliable
-                            behavior to all clients and stakeholders.</p>
+                        <p>
+                            @if(!$contentMisi)
+                                -
+                            @else
+                                {{ $contentMisi->content }}
+                            @endif
+                        </p>
                     </div>
                 </div>
             </div>

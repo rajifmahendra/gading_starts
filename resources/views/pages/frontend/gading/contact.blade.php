@@ -45,8 +45,9 @@
 
                     <!-- CONTACT FORM -->
                     <div>
-                        <form id="contact-form" action="php/contact-form.php" method="POST">
-
+                        <form id="contact-form" action="{{ route('store.contact-us') }}" method="POST">
+                            <input type="hidden" name="web_url" value="{{ url('/') }}">
+                            {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-md-12 mb-30">
                                     <!-- <label>Your name *</label> -->
@@ -63,6 +64,24 @@
                                         data-msg-email="Please enter a valid email address" maxlength="100"
                                         class="controled" name="email" id="email" placeholder="EMAIL" required>
                                 </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 mb-30">
+                                    <!-- <label>Your email address *</label> -->
+                                    <input type="number" value="" data-msg-required="Please enter your email address"
+                                        data-msg-email="Please enter your phone number" maxlength="100"
+                                        class="controled" name="phone" id="phone" placeholder="PHONE: 628123456789" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 mb-30">
+                                    <!-- <label>Your email address *</label> -->
+                                    <select  name="category" id="category" class="controled text-warning" style="color: white!important;background: #4b4e53" required>
+                                        <option class="text-white" value="kritik">Kritik dan Saran</option>
+                                        <option class="text-white" value="daftar">Daftar Mitra Kerja PT. GADING PERSADA MANDIRI</option>
+                                    </select>
                             </div>
 
                             <div class="row">
