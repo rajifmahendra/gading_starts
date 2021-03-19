@@ -7,7 +7,6 @@
             <div class="col-md-8">
                 <h1 class="page-title">CONTACT</h1>
                 <div class="page-sub-title">
-                    Lorem ipsum dolor sit amet, consectetur elit
                 </div>
             </div>
 
