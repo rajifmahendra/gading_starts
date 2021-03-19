@@ -25,5 +25,6 @@ Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function(){
     Route::get('/pricelits', 'PricelistController@index')->name('pricelist');
     Route::get('/gallery', 'GalleryController@index')->name('gallery');
     Route::get('/contact', 'ContactController@index')->name('contact');
+    Route::get('/client', 'ClientController@index')->name('client');
 });
 Route::post('/store/contact-us', 'Frontend\ContactController@storeContactUs')->name('store.contact-us');

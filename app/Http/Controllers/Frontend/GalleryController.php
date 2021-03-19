@@ -16,7 +16,7 @@ class GalleryController extends Controller
         if(!$companies){
             return response('domain is not registered');
         }
-        $galleries  = Contents::with([])->where('companies_id', $companies->id)->where('section', env('BASE_SECTION').'_gallery')
+        $galleries  = Contents::with([])->where('companies_id', $companies->id)->where('section', section_base_content().'_gallery')
             ->where('content_name','gallery')->get();
         return view('pages.frontend.gading.gallery', compact('galleries'));
     }

@@ -15,4 +15,9 @@ class Companies extends Model
 //            ->orderBy('id', 'desc')
 //            ->limit(6);
 //    }
+
+    public function clients()
+    {
+        return $this->hasMany('App\Models\Clients', 'companies_id', 'id');
+    }
 }
