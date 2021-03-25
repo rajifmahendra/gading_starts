@@ -19,105 +19,269 @@
     </div>
 </div>
 
- <!-- FEATURES 10 -->
- <div id="about" class="page-section p-110-cont">
-  <div class="container">
+<!-- COTENT CONTAINER -->
+<div class="container white-bg plr-30 pt-50 pb-40 ">
 
-      <div class="row">
-         <div class="col-md-4 col-lg-6">
+    <div class="relative">
+        <!-- PORTFOLIO FILTER -->
+        <div class="port-filter ">
+            <a href="#" class="filter active" data-filter="*">Legalitas</a>
+        </div>
 
-             <div class="row">
+        <!-- ITEMS GRID -->
+        <ul class="port-grid display-hover-on-mobile port-grid-2 clearfix" id="items-grid">
 
-                 <div class="col-md-6 col-sm-6 pb-10">
-                     <div class="fes5-box wow fadeIn">
-                         <h3>SKDU (Surat Keterangan Domisili Usaha) :</h3>
-                         <p>No. SKDU : 503/029-EKBANG.PKJ/I/2019</p>
-                         <p>Tanggal : 28 Januari 2019</p>
-                         <p>Masa Berlaku : 28 Januari 2020</p>
-                         <p>Instansi Pemberi ijin Usaha : Kecamatan Karang Tengah</p>
-                     </div>
-                 </div>
+            <!-- Item 1 -->
+            <li role="button" class="port-item mix development">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay"><img class="port-main-img" src="images/portfolio/projects-5.jpg"
+                            alt="img"></div>
+                </a>
+                <div class="port-overlay-cont">
 
-                 <div class="col-md-6 col-sm-6 pb-10">
-                     <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
-                         <h3>SPPKP (Surat Pengukuhan Pengusaha Kena Pajak) :</h3>
-                         <p>No. SPPKP : S-139PKP/WPJ.08/KP.0303/2019</p>
-                         <p>Tanggal : 22 Februari 2019</p>
-                         <p>Masa Berlaku : -</p>
-                         <p>Instansi Pemberi ijin Usaha : Kantor Pelayanan Pajak Pratama Serpong</p>
-                     </div>
-                 </div>
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">MINIMALISM BOOKS</a></h3>
+                        <span><a href="#">ui elements</a><span class="slash-divider">/</span><a
+                                href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-5.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/blog/post-wide-3.jpg"></a>
+                            <a href="images/blog/post-wide-4.jpg"></a>
+                            <a href="images/blog/post-wide-5.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
 
-             </div>
+                </div>
+            </li>
 
-             <div class="row">
-                 <div class="col-md-6 col-sm-6 pb-10">
-                     <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
-                         <h3>SKT (Surat Keterangan Terdaftar) :</h3>
-                         <p>No. SKT: S-1930KT/WPJ.08/KP.0303/2019</p>
-                         <p>Tanggal : 22 Februari 2019</p>
-                         <p>Instansi Pemberi ijin Usaha : Kantor Pelayanan Pajak Pratama Serpong</p>
-                     </div>
-                 </div>
-                 <div class="col-md-6 col-sm-6 pb-10">
-                     <div class="fes5-box wow fadeIn" data-wow-delay="600ms">
-                         <h3>NPWP (Nomor Wajib Pajak) :</h3>
-                         <p>No. NPWP : 02.627.967.9-416.00</p>
-                     </div>
-                 </div>
-             </div>
+            <!-- Item 2 -->
+            <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-3.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
 
-         </div>
-          <!-- FEATURES -->
-          <div class="col-md-4 col-lg-6">
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
+                        <span><a href="#">photography</a><span class="slash-divider">/</span><a
+                                href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-3.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/blog/post-prev-1.jpg"></a>
+                            <a href="images/blog/post-prev-2.jpg"></a>
+                            <a href="images/blog/post-prev-3.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
 
-              <div class="row">
+                </div>
+            </li>
 
-                  <div class="col-md-6 col-sm-6 pb-10">
-                      <div class="fes5-box wow fadeIn">
-                         <h3>SIUP (Surat ijin Usaha Perdagangan) :</h3>
-                          <p>No. SIUP : 912040634113</p>
-                          <p>Tanggal : 14 Maret 2019</p>
-                          <p>Masa Berlaku : Seumur Hidup</p>
-                          <p>Instansi Pemberi ijin Usaha : Penyelenggara OSS</p>
-                      </div>
-                  </div>
+            <!-- Item 3 -->
+            <li role="button" class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-1.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
 
-                  <div class="col-md-6 col-sm-6 pb-10">
-                      <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
-                          <h3>IUP (ijin Usaha Perfilman) :</h3>
-                          <p>No. IUP: 41/EDAR/PP-FS.RV/III/2014</p>
-                          <p>Tanggal : 19 Maret 2014</p>
-                          <p>Masa Berlaku : Seumur Hidup</p>
-                          <p>Instansi Pemberi ijin Usaha : Kementrian Kebudayaan dan Priwisata RI</p>
-                      </div>
-                  </div>
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                        <span><a href="#">branding</a><span class="slash-divider">/</span><a
+                                href="#">marketing</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-1.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/portfolio/car-2.jpg"></a>
+                            <a href="images/portfolio/car-3.jpg"></a>
+                            <a href="images/portfolio/car-4.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
 
-              </div>
+                </div>
+            </li>
 
-              <div class="row">
-                  <div class="col-md-6 col-sm-6 pb-10">
-                      <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
-                          <h3>TDUP (Tanda Daftar Usaha Pariwisata) (Mice & Perjalanan Biro Wisata) :</h3>
-                          <p>No. TDUP : 556/0074-DPMPTSP/OL/2019 & 556/0075-DPMPTSP/OL/2019</p>
-                          <p>Tanggal : 21 Mei 2019</p>
-                          <p>Instansi Pemberi ijin Usaha : Pemerintah Kota Tangerang Selatan</p>
-                      </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 pb-10">
-                      <div class="fes5-box wow fadeIn" data-wow-delay="600ms">
-                          <h3>NIB/TDP (Nomor Induk Berusaha/Tanda Daftar Usaha) :</h3>
-                          <p>No. TDP : 9120406341143</p>
-                          <p>Masa Berlaku : Seumur Hidup</p>
-                          <p>Instansi Pemberi ijin Usaha : Penyelenggara OSS</p>
-                      </div>
-                  </div>
-              </div>
+            <!-- Item 4 -->
+            <li role="button" class="port-item mix development">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-6.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
 
-          </div>
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
+                        <span><a href="#">design</a><span class="slash-divider">/</span><a
+                                href="#">photography</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-6.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/portfolio/projects-6.jpg"></a>
+                            <a href="images/portfolio/projects-6-box.jpg"></a>
+                            <a href="images/portfolio/projects-8.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
 
-      </div>
-  </div>
+                </div>
+            </li>
+
+            <!-- Item 5 -->
+            <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-7.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                        <span><a href="#">ui elements</a><span class="slash-divider">/</span><a
+                                href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-7.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/portfolio/projects-9.jpg"></a>
+                            <a href="images/portfolio/projects-10.jpg"></a>
+                            <a href="images/portfolio/projects-11.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Item 6 -->
+            <li role="button" class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-4.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">LOVE</a></h3>
+                        <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-4.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/blog/post-prev-4.jpg"></a>
+                            <a href="images/blog/post-prev-5.jpg"></a>
+                            <a href="images/blog/post-prev-6.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Item 7 -->
+            <li role="button" class="port-item mix development">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-8.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
+                        <span><a href="#">design</a><span class="slash-divider">/</span><a
+                                href="#">photography</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-8.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/portfolio/projects-12.jpg"></a>
+                            <a href="images/portfolio/projects-13.jpg"></a>
+                            <a href="images/portfolio/projects-14.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Item 8 -->
+            <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                    <div class="port-img-overlay">
+                        <img class="port-main-img" src="images/portfolio/projects-10.jpg" alt="img">
+                    </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                        <span><a href="#">ui elements</a><span class="slash-divider">/</span><a
+                                href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                        <span class="popup-multi-gallery">
+                            <a href="images/portfolio/projects-10.jpg" class="lightbox-item mr-20">
+                                <div aria-hidden="true" class="icon_search"></div>
+                            </a>
+                            <a href="images/blog/post-prev-1.jpg"></a>
+                            <a href="images/blog/post-prev-2.jpg"></a>
+                            <a href="images/blog/post-prev-3.jpg"></a>
+                        </span>
+                        <a href="portfolio-single1.html">
+                            <div aria-hidden="true" class="icon_link"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
 </div>
+
 
 @endsection

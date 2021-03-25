@@ -21,6 +21,10 @@
   <!-- OWL CAROUSEL -->    
   <script src="{{ asset('template/html/js/owl.carousel.min.js') }}"></script>
 
+    <!-- GOOLE MAP --> 
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDu83UcIhkldTW0k36l_f8t0pEoCOEfYT8"></script>
+    <script src="{{ asset('template/html/js/gmap3.min.js') }}"></script>
+
   <!-- PARALLAX -->    
   <script src="{{ asset('template/html/js/jquery.stellar.min.js') }}"></script>
 
