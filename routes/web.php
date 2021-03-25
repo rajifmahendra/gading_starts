@@ -14,11 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['prefix' => '/', 'namespace' => 'Frontend'], function(){
-   
+
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/about', 'AboutController@index')->name('about');
-    Route::get('/product', 'ProductController@index')->name('product');
+    Route::get('/visimisi', 'VisiController@index')->name('visi');
+    Route::get('/legalitas', 'LegalController@index')->name('legalitas');
+    Route::get('/project', 'ProjectController@index')->name('project');
+    Route::get('/service', 'ServiceController@index')->name('service');
+    Route::get('/flow', 'FlowController@index')->name('flow');
     Route::get('/pricelits', 'PricelistController@index')->name('pricelist');
     Route::get('/gallery', 'GalleryController@index')->name('gallery');
     Route::get('/contact', 'ContactController@index')->name('contact');
+    Route::get('/client', 'ClientController@index')->name('client');
 });
+Route::post('/store/contact-us', 'Frontend\ContactController@storeContactUs')->name('store.contact-us');

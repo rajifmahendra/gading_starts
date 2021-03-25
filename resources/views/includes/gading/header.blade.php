@@ -37,7 +37,7 @@
 						  <ul class="nav navbar-nav">
 		  
 							<!-- MENU ITEM -->
-							<li class="parent current">
+							<li>
 								<a href="/"><div class="main-menu-title">HOME</div></a>
 							</li>
 							
@@ -45,22 +45,23 @@
 							<li class="parent">
 								<a href="{{ url('about') }}"><div class="main-menu-title">ABOUT</div></a>
 								<ul class="sub">
-									<li><a href="portfolio-grid.html">PROFILE PERUSAHAAN</a></li>
-									<li><a href="portfolio-grid.html">VISI & MISI</a></li>
-									<li><a href="portfolio-grid.html">JAJARAN DIREKSI</a></li>
-									<li><a href="portfolio-grid.html">SERTIFIKAT</a></li>
-									<li><a href="portfolio-grid.html">CLIENT</a></li>
-									<li><a href="portfolio-grid.html">MITRA KERJA</a></li>
-									<li><a href="portfolio-grid.html">CANGKUPAN WILAYAN</a></li>
+									<li><a href="{{ url('about') }}">PROFILE PERUSAHAAN</a></li>
+									<li><a href="{{ url('visimisi') }}">VISI & MISI</a></li>
+									<li><a href="{{ url('legalitas') }}">LEGALITAS</a></li>
+									<li><a href="{{ url('client') }}">CLIENT</a></li>
 								</ul>
 							</li>			
-							<li class="parent">
-								<a href="{{ url('product') }}"><div class="main-menu-title">PRODUCT</div></a>
+							<li>
+								<a href="{{ url('project') }}"><div class="main-menu-title">PROJECT</div></a>
 							</li>
 							<li class="parent">
-								<a href="{{ url('pricelist') }}"><div class="main-menu-title">PRICELIST</div></a>
+								<a href="{{ url('service') }}"><div class="main-menu-title">OUR SERVICE</div></a>
+								<ul class="sub">
+									<li><a href="{{ url('service') }}">OUR SERVICE</a></li>
+									<li><a href="{{ url('flow') }}">FLOW</a></li>
+								</ul>
 							</li>
-							<li class="parent">
+							<li>
 								<a href="{{ url('gallery') }}"><div class="main-menu-title">GALLERY</div></a>
 							</li>
 							<!-- MENU ITEM -->
