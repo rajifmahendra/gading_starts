@@ -41,7 +41,7 @@
     </div>
     <!-- SCROLL ICON -->
     <div class="local-scroll-cont font-white">
-        <a href="#about" class="scroll-down smooth-scroll">
+        <a href="#footer4" class="scroll-down smooth-scroll">
             <div class="icon icon-arrows-down"></div>
         </a>
     </div>

@@ -104,7 +104,7 @@
 
             <div class="col-md-6">
                 <div class="row">
-                    <div class="fes2-img equal-height"></div>
+                    <div class="fes4-img equal-height"></div>
                 </div>
             </div>
 
@@ -133,7 +133,7 @@
 
             <div class="col-md-6 right-50">
                 <div class="row">
-                    <div class="fes3-img equal-height"></div>
+                    <div class="fes5-img equal-height"></div>
                 </div>
             </div>
 

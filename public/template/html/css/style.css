@@ -1135,6 +1135,39 @@ support for no js
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.fes4-img {
+  background: url(/images/fes4.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fes5-img {
+  background: url(/images/fes5.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .line-3-70{
 	margin-top:11px;
 	height:3px;
@@ -1279,7 +1312,7 @@ support for no js
 /* #FEATURES 5 #NEW
 =====================================================*/
 .fes5-box h3 {
-  color: #4b4e53;
+  color: #fff;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -1709,16 +1742,16 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 	cursor: pointer;
 }
 .port-filter a:hover{
-	color: #101010;
+	color: #ffea00;
 	text-decoration: none;
 }
 .port-filter a.active{
-	color: #101010;
-  border-color:#101010;
+	color: #ffea00;
+  border-color:#ffea00;
 	cursor: default;
 }
 .port-filter a.active:hover{
-	color: #101010;
+	color: #ffea00;
 }
  
 /******************************************************************************/ 
