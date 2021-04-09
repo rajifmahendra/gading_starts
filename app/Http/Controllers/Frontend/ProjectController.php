@@ -3,11 +3,18 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Models\Companies;
+use App\Models\Products;
 
 class ProjectController extends Controller
 {
     public function index(){
-        return view('pages.frontend.gading.project');
+        $url = url('/');
+        $companies = Companies::with([])->where('web_url', $url)->first();
+        if (!$companies) {
+            return response('domain is not registered');
+        }
+        $contents = Products::with([])->where('company_id', $companies->id)->get();
+        return view('pages.frontend.gading.project', compact('contents'));
     }
 }

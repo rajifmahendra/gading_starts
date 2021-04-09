@@ -38,16 +38,18 @@
                 @endif
             </div> --}}
             <div class="row">
-
-                <div class="col-sm-6 col-md-3 col-lg-3 wow fadeIn pb-70" data-wow-delay="600ms">
-                    <div class="post-prev-img">
-                        <a href="{{ route('product_detail')}}"><img src="images\fes5.jpg" alt="img"></a>
-                    </div>
-                    <div class="post-prev-title mb-5">
-                        <h3><a class="font-norm a-inv" href="{{ route('product_detail')}}">Produk 1</a></h3>
-                    </div>
-                </div>
-
+                @if(count($contents) > 0)
+                    @foreach($contents as $content)
+                        <div class="col-sm-6 col-md-3 col-lg-3 wow fadeIn pb-70" data-wow-delay="600ms">
+                            <div class="post-prev-img">
+                                <a href="{{ url('product-detail/' . $content->id)}}"><img src="{{ $content->media_link }}" alt="img"></a>
+                            </div>
+                            <div class="post-prev-title mb-5">
+                                <h3><a class="font-norm a-inv" href="{{ url('product-detail/' . $content->id)}}"><span style="color:#e7d61d;">{{ $content->name }}</span></a></h3>
+                            </div>
+                        </div>
+                    @endforeach
+                @endif
             </div>
         </div>
 
