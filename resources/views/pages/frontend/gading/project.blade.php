@@ -1,111 +1,58 @@
 @extends('layouts.gading.index')
 @section('content')
-<div class="page-title-cont page-title-small grey-dark-bg">
-    <div class="relative container align-left">
-        <div class="row">
+    <div class="page-title-cont page-title-small grey-dark-bg">
+        <div class="relative container align-left">
+            <div class="row">
 
-            <div class="col-md-8">
-                <h1 class="page-title">OUR PROJECT</h1>
-            </div>
-
-            <div class="col-md-4">
-                <div class="breadcrumbs">
-                    <a href="{{route('home')}}">Home</a><span class="slash-divider">/</span><span class="bread-current">OUR PROJECT</span>
+                <div class="col-md-8">
+                    <h1 class="page-title">OUR PRODUCT</h1>
                 </div>
+
+                <div class="col-md-4">
+                    <div class="breadcrumbs">
+                        <a href="{{route('home')}}">Home</a><span class="slash-divider">/</span><span
+                            class="bread-current">OUR PRODUCT</span>
+                    </div>
+                </div>
+
             </div>
-
         </div>
     </div>
-</div>
 
-<div class="grey-dark-bg clearfix">
-    <!-- COTENT CONTAINER -->
-    <div class="container plr-30 pt-50 pb-30">
+    <div class="grey-dark-bg clearfix">
+        <!-- COTENT CONTAINER -->
+        <div class="container plr-30 pt-50 pb-30">
 
-       <div class="row">
-        <div class="col-md-6 mb-30">
-          <h4></h4>
-          <!-- Toggle with BG-->
-          <ul class="toggle-view-custom toggle-no-bg">
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2014</h3>
-              <div class="panel">
-                <ol>
-                  <li>Pembuatan Film Dokumenter Sejarah Museum Joang 45/Museum M.H. Thamrin,
-                    Multimedia, Jakarta, Dinas Pariwisata dan Kebudayaan.</li><br>
-                  <li>Paket Fullboard Meeting Dalam Rangka Pengendalian Pengguna BBM untuk
-                    Pembangkit Tenaga Listrik, EO, Jakarta, Direktorat Jenderal Ketenagalistrikan
-                    Kementerian ESDM.</li><br>
-                  <li>Paket Fullboard Meeting Dalam Rangka Pengendalian Pengguna BBM untuk
-                    Pembangkit Tenaga Listrik, EO, Jakarta, Direktorat Jenderal Ketenagalistrikan
-                    Kementerian ESDM.</li><br>
-                  <li>Penyelenggaraan Kegiatan Peningkatan Database SIG Mineral dan Batubara Pulau
-                    Sulawesi, EO, Sulawesi, Direktorat Jenderal Minerba.</li><br>
-                  <li>Paket Fullboard Meeting Penyusunan Rancangan Peraturan Menteri Energi dan
-                    Sumber Daya Mineral, EO, Bogor, Kementerian ESDM.</li><br>
-                </ol>
+            {{-- <div class="row">
+                @if(count($contents) > 0)
+                    @foreach($contents as $content)
+                        <div class="col-sm-6 col-md-3 col-lg-3 wow fadeIn pb-70" data-wow-delay="600ms">
+                            <div class="post-prev-img">
+                                <a href="{{ url('product').'/'.$content->id }}"><img src="{{ $content->media_link }}" alt="img"></a>
+                            </div>
+                            <div class="post-prev-title mb-5">
+                                <h3><a class="font-norm a-inv" href="{{ url('product').'/'.$content->id }}">{{ $content->name }}</a></h3>
+                            </div>
+                        </div>
+                    @endforeach
+                @endif
+            </div> --}}
+            <div class="row">
 
-              </div>
-            </li>
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2015</h3>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
-                neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
-              </div>
-            </li>
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2016</h3>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
-                neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
-              </div>
-            </li>
-          </ul><!-- End Toggles -->
+                <div class="col-sm-6 col-md-3 col-lg-3 wow fadeIn pb-70" data-wow-delay="600ms">
+                    <div class="post-prev-img">
+                        <a href="{{ route('product_detail')}}"><img src="images\fes5.jpg" alt="img"></a>
+                    </div>
+                    <div class="post-prev-title mb-5">
+                        <h3><a class="font-norm a-inv" href="{{ route('product_detail')}}">Produk 1</a></h3>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-md-6 mb-30">
-          <h4></h4>
-          <!-- Toggle with BG-->
-          <ul class="toggle-view-custom toggle-no-bg">
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2014</h3>
-              <div class="panel">
-                <ol>
-                  <li>Pembuatan Film Dokumenter Sejarah Museum Joang 45/Museum M.H. Thamrin,
-                    Multimedia, Jakarta, Dinas Pariwisata dan Kebudayaan.</li><br>
-                  <li>Paket Fullboard Meeting Dalam Rangka Pengendalian Pengguna BBM untuk
-                    Pembangkit Tenaga Listrik, EO, Jakarta, Direktorat Jenderal Ketenagalistrikan
-                    Kementerian ESDM.</li><br>
-                  <li>Paket Fullboard Meeting Dalam Rangka Pengendalian Pengguna BBM untuk
-                    Pembangkit Tenaga Listrik, EO, Jakarta, Direktorat Jenderal Ketenagalistrikan
-                    Kementerian ESDM.</li><br>
-                  <li>Penyelenggaraan Kegiatan Peningkatan Database SIG Mineral dan Batubara Pulau
-                    Sulawesi, EO, Sulawesi, Direktorat Jenderal Minerba.</li><br>
-                  <li>Paket Fullboard Meeting Penyusunan Rancangan Peraturan Menteri Energi dan
-                    Sumber Daya Mineral, EO, Bogor, Kementerian ESDM.</li><br>
-                </ol>
-
-              </div>
-            </li>
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2015</h3>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
-                neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
-              </div>
-            </li>
-            <li>
-              <h3 class="ui-accordion-header"><span class="link"></span>2016</h3>
-              <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
-                neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
-              </div>
-            </li>
-          </ul><!-- End Toggles -->
-        </div>
-       </div>
 
     </div>
 
-</div>
+
+
 @endsection

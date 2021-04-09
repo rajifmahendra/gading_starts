@@ -1,12 +1,12 @@
-<div class="header-transporent-bg-black">				
-				
+<div class="header-transporent-bg-black">
+
 	<!-- HEADER 1 BLACK -->
 	<header id="nav" class="header header-1 black-header">
 	  <div class="header-wrapper">
 		<div class="container-m-30 clearfix">
 		  <div class="logo-row">
-		  
-			<!-- LOGO --> 
+
+			<!-- LOGO -->
 			<div class="logo-container-2">
 				<div class="logo-2">
 				<a href="index.html" class="clearfix">
@@ -14,7 +14,7 @@
 				</a>
 				</div>
 			</div>
-			<!-- BUTTON --> 
+			<!-- BUTTON -->
 			<div class="menu-btn-respons-container">
 				<button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
 					<span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
@@ -25,9 +25,9 @@
 
 		<!-- MAIN MENU CONTAINER -->
 		<div class="main-menu-container">
-			
-			  <div class="container-m-30 clearfix">	
-			  
+
+			  <div class="container-m-30 clearfix">
+
 					<!-- MAIN MENU -->
 					<div id="main-menu">
 					  <div class="navbar navbar-default" role="navigation">
@@ -35,12 +35,12 @@
 						<!-- MAIN MENU LIST -->
 						<nav class="collapse collapsing navbar-collapse right-1024">
 						  <ul class="nav navbar-nav">
-		  
+
 							<!-- MENU ITEM -->
 							<li>
 								<a href="/"><div class="main-menu-title">HOME</div></a>
 							</li>
-							
+
 							<!-- MENU ITEM -->
 							<li class="parent">
 								<a href="{{ url('about') }}"><div class="main-menu-title">ABOUT</div></a>
@@ -50,9 +50,9 @@
 									<li><a href="{{ url('legalitas') }}">LEGALITAS</a></li>
 									<li><a href="{{ url('client') }}">CLIENT</a></li>
 								</ul>
-							</li>			
+							</li>
 							<li>
-								<a href="{{ url('project') }}"><div class="main-menu-title">PROJECT</div></a>
+								<a href="{{ url('project') }}"><div class="main-menu-title">PRODUCT</div></a>
 							</li>
 							<li class="parent">
 								<a href="{{ url('service') }}"><div class="main-menu-title">OUR SERVICE</div></a>
@@ -66,23 +66,23 @@
 							</li>
 							<!-- MENU ITEM -->
 							<li id="menu-contact-info-big" class="parent megamenu">
-								<a href="{{ url('contact') }}"><div class="main-menu-title">CONTACT</div></a> 
+								<a href="{{ url('contact') }}"><div class="main-menu-title">CONTACT</div></a>
 							</li>
-		
+
 						  </ul>
-			  
+
 						</nav>
 
 					  </div>
 					</div>
 					<!-- END main-menu -->
-					
+
 			  </div>
 			  <!-- END container-m-30 -->
-			
+
 		</div>
 		<!-- END main-menu-container -->
-		
+
 		<!-- SEARCH READ DOCUMENTATION -->
 		<ul class="cd-header-buttons">
 			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -92,10 +92,9 @@
 				<input type="text" value="" name="q" id="q" placeholder="Search...">
 			</form>
 		</div>
-		
+
 	  </div>
 	  <!-- END header-wrapper -->
-	  
+
 	</header>
-	
-		
+
