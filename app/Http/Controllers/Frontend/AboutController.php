@@ -15,8 +15,13 @@ class AboutController extends Controller
         if(!$companies){
             return response('domain is not registered');
         }
+        
         $contents  = Contents::with([])->where('companies_id', $companies->id)->where('section', section_base_content().'_about')
             ->where('content_name','about_description')->first();
-        return view('pages.frontend.gading.about', compact('contents'));
+            
+        $direksi  = Contents::with([])->where('companies_id', $companies->id)->where('section', section_base_content().'_about')
+            ->where('content_name','about_direksi')->first();
+            
+        return view('pages.frontend.gading.about', compact('contents', 'direksi'));
     }
 }

@@ -64,7 +64,17 @@
                     </p>
                 </div>
             </div>
-
+            
+            @if($direksi && $direksi->content)
+                <div class="row">
+                    <div class="bs-docs-section mb-50 text-center">
+                        <h3>JAJARAN DIREKSI</h3>
+                    </div>
+                    <div>
+                        <iframe style="width: 100%"  height="480" src="{{ $direksi->content }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            @endif
         </div>
 
     </div>
